@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: #f2f4f6;
+}
+
+.app {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 80px;
+}
+
+.app-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    height: 24px;
+}
+
+.section {
+    padding: 0 16px;
+    margin-bottom: 20px;
+}
+
+.bank-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.account-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.account-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.account-info {
+    flex: 1;
+}
+
+.name {
+    font-size: 14px;
+    color: #555;
+}
+
+.amount {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    background: #e9f0ff;
+    color: #0057ff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rate {
+    color: red;
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.more {
+    font-size: 13px;
+    color: #888;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.spending-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.d-day {
+    background: #0057ff;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.spending-info {
+    flex: 1;
+}
+
+.label {
+    font-size: 13px;
+    color: #666;
+}
+
+.badge {
+    font-size: 12px;
+    color: #0057ff;
+    background: #e9f0ff;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.credit {
+    padding-top: 0;
+}
+
+.credit-box {
+    background: #f9f9f9;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.quick-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.quick-actions button {
+    flex: 1;
+    background: #f1f1f1;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.tab-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    font-size: 14px;
+}
