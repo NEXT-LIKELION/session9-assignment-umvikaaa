@@ -1,0 +1,98 @@
+/* App.css */
+
+body {
+    background-color: #f2f4f6;
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+}
+
+.app-container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 80px; /* 하단 네비 바 공간 확보 */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+.amount {
+    font-size: 22px;
+    font-weight: bold;
+    color: #111;
+}
+
+.subtext {
+    font-size: 13px;
+    color: #3182f6;
+    margin-top: 6px;
+}
+
+.btn-small {
+    background-color: #f2f4f6;
+    border: none;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 420px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    color: #555;
+}
+
+.nav-item img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+}
+.amount-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bank-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.feature-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  color: #333;
+}
